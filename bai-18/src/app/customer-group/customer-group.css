@@ -1,0 +1,31 @@
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.wrapper {
+  display: inline-block;
+  text-align: left;
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 3px double black;
+}
+
+td {
+  padding: 5px 10px;
+  border: 3px double black;
+  vertical-align: middle;
+}
+
+.header td {
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  width: 60px;
+  height: 60px;
+}

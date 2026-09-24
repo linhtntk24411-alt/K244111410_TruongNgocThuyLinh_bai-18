@@ -1,0 +1,20 @@
+[
+  {
+    "CustomerTypeId": 1,
+    "CustomerTypeName": "VIP",
+    "Customers": [
+      { "Id": "Cus123", "Name": "Nguyen Van An", "Email": "an.nguyen@gmail.com", "Age": 45, "Image": "a1.png" },
+      { "Id": "Cus456", "Name": "Tran Thi Binh", "Email": "binh.tran@gmail.com", "Age": 38, "Image": "a2.png" },
+      { "Id": "Cus789", "Name": "Le Minh Cuong", "Email": "cuong.le@gmail.com", "Age": 52, "Image": "a3.png" }
+    ]
+  },
+  {
+    "CustomerTypeId": 2,
+    "CustomerTypeName": "Normal",
+    "Customers": [
+      { "Id": "Cus000", "Name": "Pham Thu Dung", "Email": "dung.pham@gmail.com", "Age": 28, "Image": "a4.png" },
+      { "Id": "Cus111", "Name": "Hoang Van Em", "Email": "em.hoang@gmail.com", "Age": 33, "Image": "a5.png" },
+      { "Id": "Cus222", "Name": "Vu Thi Phuong", "Email": "phuong.vu@gmail.com", "Age": 41, "Image": "a6.png" }
+    ]
+  }
+]
