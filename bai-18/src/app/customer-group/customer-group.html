@@ -2,13 +2,15 @@
   <div class="wrapper">
     <p style="color: red; font-weight: bold;">{{errorMessage}}</p>
     <table>
-      <tr class="header">
-        <td>Id</td>
-        <td>Name</td>
-        <td>Email</td>
-        <td>Age</td>
-        <td>#</td>
-      </tr>
+      <thead>
+        <tr class="header">
+          <td>Id</td>
+          <td>Name</td>
+          <td>Email</td>
+          <td>Age</td>
+          <td>#</td>
+        </tr>
+      </thead>
       <tbody *ngFor="let g of groups">
         <tr>
           <td colspan="5">{{g.CustomerTypeId}} - {{g.CustomerTypeName}}</td>
@@ -25,7 +27,4 @@
       </tbody>
     </table>
   </div>
-</div>cd /workspaces/K244111410_TruongNgocThuyLinh_bai18
-git add .
-git commit -m "Hoan thanh bai 18 - Group Customers"
-git push
+</div>
